@@ -3,27 +3,24 @@ name: quanxuanxiangshou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '27 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: quanxuanxiangshou
         env:
-          cfmze55681: ${{ secrets.cfmze55681 }}
+          l4: ${{ secrets.l4 }}
         run: |
-          echo $cfmze55681 | jq -r .usi7 | /bin/bash
-          echo $ikjd48 | jq -r .zz5456 | /bin/bash
-          echo $di1 | jq -r .mhmzd2761 | /bin/bash
-          echo $ho0 | jq -r .mmac304 | /bin/bash
-          echo $jtt64787 | jq -r .ih0358 | /bin/bash
-          echo $m6430 | jq -r .v02 | /bin/bash
-          echo $kclpv533 | jq -r .tgdrl555 | /bin/bash
-          echo $o01312 | jq -r .qh3241 | /bin/bash
-          echo $qwss99 | jq -r .zjfl8 | /bin/bash
-          echo $rmst5 | jq -r .h9 | /bin/bash
-          echo $f66359 | jq -r .x20 | /bin/bash
+          echo $l4 | jq -r .n38 | /bin/bash
+          echo $r72401 | jq -r .fz4114 | /bin/bash
+          echo $vnwpo237 | jq -r .vake225 | /bin/bash
+          echo $wgm6732 | jq -r .z85386 | /bin/bash
+          echo $zqbt44645 | jq -r .hm9227 | /bin/bash
+          echo $qox64127 | jq -r .v41 | /bin/bash
+          echo $eg53 | jq -r .hxom2093 | /bin/bash
+          echo $beb4 | jq -r .yzu4 | /bin/bash
+          echo $ivhfa35820 | jq -r .sot807 | /bin/bash
 
